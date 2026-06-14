@@ -1,0 +1,62 @@
+
+body {
+	margin: 0;
+	font-family: comic sans ms, sans-serif;
+	text-align: center;
+}
+
+.portada {
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/imagen.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.perfil {
+	background: ;
+	padding: 90px 30px 30px;
+
+	}
+
+
+
+
+.foto-perfil img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-top: -50px;
+	border: 7px solid skyblue;
+}
+
+
+
+button{
+	padding: 15px 25px;
+	margin: 15px;
+	border: none;
+	background:#BED9FF;
+	color: #4A6DA0;
+	border-radius: 5px;
+}
+
+button:hover{
+	color: #FFB4D9;
+	transition: 0.5s;
+	}
+
+
+	footer{
+background: #FFB4C3;
+color: #9E354A;
+padding: 80px;
+font-size:15px ;
+}
+
+.inicio {
+	text-align: center;
+
+}

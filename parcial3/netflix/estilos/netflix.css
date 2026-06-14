@@ -1,0 +1,89 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.contenedor{
+width: 80%;
+margin: 0 auto;
+}
+
+body{
+background: #141414;
+font-family: comic sans ms;
+font-size: 1.1rem;
+}
+
+header menu .logo img{
+width: 15%;
+}
+
+main{
+
+}
+
+main .cuenta{
+width: 20%;
+margin: 10px;
+padding: 10px;
+}
+
+main .cuenta .foto{
+width: 100px;
+height: 100px;
+background: red;
+margin: 10px auto;
+border: 5px solid transparent;
+}
+
+main .cuenta .nombre{
+text-align: center;
+color: #B5B5B5;
+}
+
+main .perfiles{
+display: flex;
+justify-content: center;
+}
+
+main h2{
+text-align: center;
+color: white;
+}
+
+main .cuenta .foto:hover{
+border: 5px solid white;
+transition: 1s;
+}
+
+main .configuracion a{
+text-align: center;
+color: #b5b5b5;
+text-decoration: none;
+display: inline-block;
+border: 1px solid #b5b5b5;
+padding: 10px 20px;
+}
+
+main .configuracion{
+display: flex;
+justify-content: center;
+margin: 25px;
+}
+
+main .configuracion a:hover{
+color: white;
+border: 1px solid white;
+}
+
+footer{
+text-align: center;
+padding: 25px;
+color: white;
+}
+
+img{
+height: 100%;
+width: 100%;
+}

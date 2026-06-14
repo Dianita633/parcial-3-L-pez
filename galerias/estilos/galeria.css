@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: boder-box;
+}
+
+body{
+	background: #141414;
+	color: #4B7054;
+	font-family: comic sans ms;
+	font-size: 1.2rem;
+}
+
+header{
+	text-align: center;
+	padding: 20px;
+	border-bottom: 5px solid #4B7054;
+}
+
+main .galeria{
+	width: 60%;
+	background: #2B4330;
+	margin: 0 auto;
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.galeria .foto{
+	width: 250px;
+	height: 250px;
+	background: #2B4330;
+	margin: 15px 10px;
+}
+
+/*aqui acomodaremos las fotos para que entren en su caja*/
+
+main .foto img{
+	width: 100%;
+	filter: grayscale(75%);
+}
+
+main .foto img:hover{
+	filter: grayscale(0%);
+	transition: 0,5s;
+	border: 4px solid #6C9B76;
+}
+
+footer .presentacion{
+	width: 85%;
+	margin: 0 auto;
+
+}
+
+footer .foto{
+	width: 150px;
+	height: 150px;
+	background: #141414;
+	border-radius: 100%;
+}
+
+footer .foto img{
+	width: 100%;
+	border-radius: 100%;
+}
+
+footer .text{
+	width: 70%;
+}
+
+footer .presentacion{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.inicio{
+	text-align: center;
+	
+
+}
